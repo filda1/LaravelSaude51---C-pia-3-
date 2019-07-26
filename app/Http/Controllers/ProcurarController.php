@@ -9,7 +9,7 @@ use App\Compra;
 class ProcurarController extends Controller
 {
 
-    public function search($search){
+    public function search(){
 
         $search = urldecode("123");
 
