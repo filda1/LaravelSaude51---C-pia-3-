@@ -98,7 +98,7 @@ Route::get("procurar/search/{search}", "ProcurarController@search");
 Route::get('procurar/searchredirect', function(){
      
     /* Nuevo: si el argumento search está vacío regresar a la página anterior */
-    if (empty(Input::get('search'))) return redirect()->back();
+    //if (empty(Input::get('search'))) return redirect()->back();
     
     $search = urlencode(e(Input::get('search')));
     $route = "procurar/search/$search";
