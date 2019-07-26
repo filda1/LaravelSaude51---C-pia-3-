@@ -11,7 +11,7 @@ class ProcurarController extends Controller
 
     public function search($search){
 
-        $search = urldecode($search);
+        $search = urldecode("123");
 
         $ticket = compra::where('nif',$search)->first();
         

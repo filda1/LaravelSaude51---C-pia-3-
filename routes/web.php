@@ -48,7 +48,7 @@ Route::any ( '/search', function () {
                       ->Where ( 'localidade', 'LIKE', '%' . $localidade . '%' )
                       ->Where ( 'concelho', 'LIKE', '%' . $concelho . '%' )
                       ->Where ( 'distrito', 'LIKE', '%' . $distrito . '%' )
-                      ->Where ( 'especialidade', 'LIKE', '%' . $especialidade . '%' )      
+                      ->Where ( 'especialidade', 'LIKE', '%' . $especialidade . '%' )         
                       ->get ();
 
 
