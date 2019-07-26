@@ -77,7 +77,6 @@
 
       <img class="d-block w-100" src="storage/app/image/R8OW647RTiXODLea9ntosGIDCHRbncbMFDGKBx4I.jpeg" alt="slide #1"
 
-      
     </div>
     <div class="carousel-item">
 
