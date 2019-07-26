@@ -72,11 +72,11 @@
     <div class="carousel-item">
 
     
-
-      <img class="d-block w-100" src= "{{url('/storage/'. $posts[1]->body )}}" alt="{{ $posts[1]->slug }}">      
+      <!-- Masthead 
+        <img class="d-block w-100" src= "{{url('/storage/'. $posts[1]->body )}}" alt="{{ $posts[1]->slug }}">     --> 
   
 
-     
+      <img class="d-block w-100" src=" http://bigbang999.herokuapp.com/public/storage/R8OW647RTiXODLea9ntosGIDCHRbncbMFDGKBx4I.jpeg" alt="slide #1"
 
       
     </div>
