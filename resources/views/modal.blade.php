@@ -38,6 +38,7 @@
     @include('includes.messages')
     
     <form role="search" action="{{url('procurar/searchredirect')}}">
+    "{{ route('post.update',$post->id) }}"
 
       <div class="form-group has-feedback">
         <input type="text" class="form-control" name='search' placeholder="Introduzir o Nif">
