@@ -38,7 +38,7 @@ Route::post('mail2/send2', 'Mail2Controller@send');
 Route::any ( '/search', function () {
 
     $especialidade = Input::get ( 'especialidade' );
-    $nome = "cepros";
+    $nome = Input::get ( 'nome' );
     $localidade = Input::get ( 'localidade' );
     $concelho = Input::get ( 'concelho' );
     $distrito = Input::get ( 'distrito' );
