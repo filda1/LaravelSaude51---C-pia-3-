@@ -43,14 +43,14 @@ Route::any ( '/search', function () {
     $concelho = Input::get ( 'concelho' );
     $distrito = Input::get ( 'distrito' );
     
-   
     
-    $user = Prestador::where ( 'nome', 'LIKE', '%' . $nome. '%' )
-                      ->Where ( 'localidade', 'LIKE', '%' . $localidade . '%' )
+    $user = prestador::where ( 'nome', 'LIKE', '%' . $nome. '%' )
+                      /*->Where ( 'localidade', 'LIKE', '%' . $localidade . '%' )
                       ->Where ( 'concelho', 'LIKE', '%' . $concelho . '%' )
                       ->Where ( 'distrito', 'LIKE', '%' . $distrito . '%' )
-                      ->Where ( 'especialidade', 'LIKE', '%' . $especialidade . '%' )           
+                      ->Where ( 'especialidade', 'LIKE', '%' . $especialidade . '%' )  */         
                       ->get ();
+
 
     if (count ( $user ) > 0)
         return view ( 'user.directorio' )->withDetails ( $user )->withQuery ( $nome );
