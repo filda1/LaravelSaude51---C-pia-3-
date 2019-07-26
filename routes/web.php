@@ -38,13 +38,13 @@ Route::post('mail2/send2', 'Mail2Controller@send');
 Route::any ( '/search', function () {
 
     $especialidade = Input::get ( 'especialidade' );
-    $nome = Input::get ( 'nome' );
+    $nome = "cepros";
     $localidade = Input::get ( 'localidade' );
     $concelho = Input::get ( 'concelho' );
     $distrito = Input::get ( 'distrito' );
     
     
-    $user = prestador::where ( 'nome', 'LIKE', '%' . "cepros". '%' )
+    $user = prestador::where ( 'nome', 'LIKE', '%' . $nome. '%' )
                       ->Where ( 'localidade', 'LIKE', '%' . $localidade . '%' )
                       ->Where ( 'concelho', 'LIKE', '%' . $concelho . '%' )
                       ->Where ( 'distrito', 'LIKE', '%' . $distrito . '%' )
