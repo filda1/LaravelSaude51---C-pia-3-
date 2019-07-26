@@ -64,7 +64,7 @@
 
 
      <!-- Masthead  <img class="d-block w-100" src= "{{url('/storage/'.R8OW647RTiXODLea9ntosGIDCHRbncbMFDGKBx4I.jpeg )}}" alt="{{ $posts[0]->slug }}"> --> 
-     <img class="d-block w-100" src="/storage/R8OW647RTiXODLea9ntosGIDCHRbncbMFDGKBx4I.jpeg" alt="slide #1">
+     <img class="d-block w-100" src="/storage/app/public/R8OW647RTiXODLea9ntosGIDCHRbncbMFDGKBx4I.jpeg" alt="slide #1">
 
 
     </div>
