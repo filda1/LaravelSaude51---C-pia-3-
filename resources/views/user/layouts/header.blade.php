@@ -53,18 +53,19 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
  
-   <!--   @if( (!isset( $posts[0]->image )) and ( !isset( $posts[0]->body )) )
+      @if( (!isset( $posts[0]->image )) and ( !isset( $posts[0]->body )) )
 
       <img class="d-block w-100" src= "{{url('/storage/'. $posts[0]->body )}}" alt="{{ $posts[0]->slug }}">      
       @else
 
       <img class="d-block w-100" src="user/img/banner1.jpg" alt="slide #1">
 
-      @endif -->
+      @endif 
 
 
-     <!-- Masthead  <img class="d-block w-100" src= "{{url('/storage/'.R8OW647RTiXODLea9ntosGIDCHRbncbMFDGKBx4I.jpeg )}}" alt="{{ $posts[0]->slug }}"> --> 
-     <img class="d-block w-100" src=" http://bigbang999.herokuapp.com/public/storage/R8OW647RTiXODLea9ntosGIDCHRbncbMFDGKBx4I.jpeg" alt="slide #1">
+     <!-- Masthead  <img class="d-block w-100" src= "{{url('/storage/'.R8OW647RTiXODLea9ntosGIDCHRbncbMFDGKBx4I.jpeg )}}" alt="{{ $posts[0]->slug }}"> 
+         <img class="d-block w-100" src=" http://bigbang999.herokuapp.com/public/storage/R8OW647RTiXODLea9ntosGIDCHRbncbMFDGKBx4I.jpeg" alt="slide #1"--> 
+  >
 
 
     </div>
