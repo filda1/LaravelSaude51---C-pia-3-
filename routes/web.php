@@ -45,7 +45,7 @@ Route::any ( '/search', function () {
     
    
     
-    $user = prestador::where ( 'nome', 'LIKE', '%' . $nome. '%' )
+    $user = Prestador::where ( 'nome', 'LIKE', '%' . $nome. '%' )
                       ->Where ( 'localidade', 'LIKE', '%' . $localidade . '%' )
                       ->Where ( 'concelho', 'LIKE', '%' . $concelho . '%' )
                       ->Where ( 'distrito', 'LIKE', '%' . $distrito . '%' )
