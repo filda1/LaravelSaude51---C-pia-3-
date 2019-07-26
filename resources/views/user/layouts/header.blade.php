@@ -62,7 +62,7 @@
 
       @endif -->
 
-      <img class="d-block w-100" src= "{{url('/storage/'. $posts[0]->body )}}" alt="{{ $posts[0]->slug }}">  
+      <img class="d-block w-100" src= "{{url('storage/'. $posts[0]->body )}}" alt="{{ $posts[0]->slug }}">  
 
 
 
