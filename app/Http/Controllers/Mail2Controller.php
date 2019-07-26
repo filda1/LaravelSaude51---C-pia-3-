@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Mail\DemoEmail2;
 use Illuminate\Support\Facades\Mail;
 //use Mail;
-use App\sendemail;
+use App\Sendemail;
 
 
 class Mail2Controller extends Controller

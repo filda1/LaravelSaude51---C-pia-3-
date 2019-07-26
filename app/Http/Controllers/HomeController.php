@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Post;
-use App\category;
+use App\Category;
 
 class HomeController extends Controller
 {

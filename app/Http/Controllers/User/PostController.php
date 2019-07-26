@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
-use App\like;
-use App\post;
+use App\Like;
+use App\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 

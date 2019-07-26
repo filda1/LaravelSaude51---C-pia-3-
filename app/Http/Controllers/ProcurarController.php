@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Post;
-use App\compra;
+use App\Compra;
 
 class ProcurarController extends Controller
 {

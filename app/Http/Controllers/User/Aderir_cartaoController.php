@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
-use App\aderir_cartao;
-use App\post;
-use App\category;
-use App\contacto;
-use App\page_body;
+use App\Aderir_cartao;
+use App\Post;
+use App\Category;
+use App\Contacto;
+use App\Page_body;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 

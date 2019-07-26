@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Post;
-use App\category;
-use App\contacto;
-use App\page_body;
+use App\Category;
+use App\Contacto;
+use App\Page_body;
 
 class ModalController extends Controller
 {

@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
-use App\category;
-use App\post;
-use App\tag;
+use App\Category;
+use App\Post;
+use App\Tag;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
