@@ -44,11 +44,11 @@ Route::any ( '/search', function () {
     $distrito = Input::get ( 'distrito' );
     
     
-    $user = prestador::where ( 'nome', 'LIKE', '%' . $nome. '%' )
-                      /*->Where ( 'localidade', 'LIKE', '%' . $localidade . '%' )
+    $user = prestador::where ( 'nome', 'LIKE', '%' . "cepros". '%' )
+                      ->Where ( 'localidade', 'LIKE', '%' . $localidade . '%' )
                       ->Where ( 'concelho', 'LIKE', '%' . $concelho . '%' )
                       ->Where ( 'distrito', 'LIKE', '%' . $distrito . '%' )
-                      ->Where ( 'especialidade', 'LIKE', '%' . $especialidade . '%' )  */         
+                      ->Where ( 'especialidade', 'LIKE', '%' . $especialidade . '%' )      
                       ->get ();
 
 
