@@ -12,9 +12,8 @@ class ProcurarController extends Controller
     public function search($search){
    
         $search = urldecode($search);
-        $search1 = '123' ;
 
-        $ticket = compra::where('nif',123)->first();
+        $ticket = compra::where('nif',$search)->first();
         
 
         return view('modal', compact('ticket'));

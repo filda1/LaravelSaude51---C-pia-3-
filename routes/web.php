@@ -105,7 +105,7 @@ Route::get('procurar/searchredirect', function(){
     return redirect($route);
 });
 
-Route::get("procurar/search/{search}", "ProcurarController@search");
+//Route::get("procurar/search/{search}", "ProcurarController@search");
 
 
 
