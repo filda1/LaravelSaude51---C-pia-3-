@@ -17,6 +17,7 @@
               </div>
             </div>
     gggg
+    
             <!-- Portfolio Item 1
                @if( (!isset( $page[0]->image )) and ( !isset( $page[0]->body )) )
 
