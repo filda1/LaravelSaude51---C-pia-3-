@@ -76,7 +76,7 @@
         <img class="d-block w-100" src= "{{url('/storage/'. $posts[1]->body )}}" alt="{{ $posts[1]->slug }}">     --> 
 
 
-      <img class="d-block w-100" src="http://apollo23.herokuapp.com/storage/upvBb30mrfLer8Ogh4wAC2uSxxkv7JkvxIMtrUvV.jpeg" alt="slide #1">
+      <img class="d-block w-100" src=" /storage/upvBb30mrfLer8Ogh4wAC2uSxxkv7JkvxIMtrUvV.jpeg" alt="slide #1">
 
 
     </div>
