@@ -22,7 +22,9 @@ class MailController extends Controller
         $message = $get->message; 
         $phone = $get->phone; 
        
-Mail::to('candidaturas.urh@gmail.com')->send(new DemoEmail($name,$message));
+//Mail::to('candidaturas.urh@gmail.com')->send(new DemoEmail($name,$message));
+     
+Mail::to('filintmeireles@gmail.com')->send(new DemoEmail($name,$message));
  
     }
 }
