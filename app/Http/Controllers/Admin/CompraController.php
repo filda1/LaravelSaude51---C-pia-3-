@@ -59,7 +59,7 @@ class CompraController extends Controller
     {
         
      
-            if ($request->hasFile('image')) {
+           /* if ($request->hasFile('image')) {
                 $imageName = $request->image->store('public');
     
                 //$path = $request->image->getClientOriginalName();
@@ -67,9 +67,9 @@ class CompraController extends Controller
             }else{
                 
                 return 'No';
-            }
+            }*/
            
-            $name_imag_md5 = $request->image->hashName(); /// OBTIENE NOMBRE ENCRIPTADO
+            //$name_imag_md5 = $request->image->hashName(); /// OBTIENE NOMBRE ENCRIPTADO
             
             $post = new compra;
             $post->email =  $request->email;
@@ -77,10 +77,10 @@ class CompraController extends Controller
             $post->nif =  $request->nif;
             $post->name_prestador =  $request->name_prestador;
             $post->cartao =  $request->cartao;
-            $post->image = $imageName;
+            $post->image = "";       // $post->image = $imageName;
             $post->promocoes = "";
             $post->vauchers = "";
-            $post->body = $name_imag_md5;
+            $post->body = "";    //   $post->body = $name_imag_md5;
             $post->n2 =  "";
             $post->n3 =  "";
 
@@ -131,7 +131,7 @@ class CompraController extends Controller
     public function update(Request $request, $id)
     {
 
-        if ($request->hasFile('image')) {
+       /* if ($request->hasFile('image')) {
             $imageName = $request->image->store('public');
 
             //$path = $request->image->getClientOriginalName();
@@ -141,7 +141,7 @@ class CompraController extends Controller
             return 'No';
         }
     
-        $name_imag_md5 = $request->image->hashName(); /// OBTIENE NOMBRE ENCRIPTADO
+        $name_imag_md5 = $request->image->hashName(); */    /// OBTIENE NOMBRE ENCRIPTADO
        
 
             $post = compra::find($id);
@@ -150,10 +150,10 @@ class CompraController extends Controller
             $post->nif =  $request->nif;
             $post->name_prestador =  $request->name_prestador;
             $post->cartao =  $request->cartao;
-            $post->image = $imageName;
+            $post->image = "";     //   $post->image = $imageName;
             $post->promocoes = "";
             $post->vauchers = "";
-            $post->body = $name_imag_md5;
+            $post->body = "";      // $post->body = $name_imag_md5;
             $post->n2 =  "";
             $post->n3 =  "";
            

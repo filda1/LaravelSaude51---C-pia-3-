@@ -18,7 +18,7 @@ class CreateComprasTable extends Migration
    $table->bigIncrements('id');
    $table->string('email');
    $table->string('name');
-   $table->integer('nif'); 
+   $table->integer('nif');
    $table->string('name_prestador');
    $table->integer('cartao');
    $table->string('image'); 
