@@ -40,7 +40,7 @@ class PostController extends Controller
     public function create()
     {
         //if (Auth::user()->can('posts.create')) {
-           $tags =tag::all();
+           $tags ="";
             $categories =category::all();
             return view('admin.post.post',compact('tags','categories'));
        // }
