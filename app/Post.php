@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
-   /*public function tags()
+   public function tags()
     {
     	return $this->belongsToMany('App\tag','post_tags')->withTimestamps();
     }
@@ -29,7 +29,7 @@ class Post extends Model
     public function getSlugAttribute($value)
     {
         return route('post',$value);
-    }*/
+    }
 }
 
 
