@@ -28,7 +28,10 @@
         
         <li class=""><a href="{{ route('person.index') }}"><i class="fa fa-circle-o"></i>User</a></li>
 
-        <li class=""><a href="{{ route('compra2.index')}}"><i class="fa fa-circle-o"></i>Dowload</a></li>
+
+         <!-- <li class=""><a href="{{ route('compra2.index')}}"><i class="fa fa-circle-o"></i>Dowload</a></li>-->
+
+        <li class=""><a href=""><i class="fa fa-circle-o"></i>Dowload</a></li>
         
      
            
