@@ -56,7 +56,7 @@ class PrestadorController extends Controller
         $category->concelho = $request->concelho;
         $category->distrito = $request->distrito;
         $category->telefone = $request->telefone;
-        $category->e_mail = $request->e_mail;
+        $category->email = $request->email;
         $category->notas = $request->notas;
         $category->preo = " ";
         $category->desconto =  " ";
@@ -106,7 +106,7 @@ class PrestadorController extends Controller
         $category->concelho = $request->concelho;
         $category->distrito = $request->distrito;
         $category->telefone = $request->telefone;
-        $category->e_mail = $request->e_mail;
+        $category->email = $request->email;
         $category->notas = $request->notas;
         $category->preo = " ";
         $category->desconto =  " ";
