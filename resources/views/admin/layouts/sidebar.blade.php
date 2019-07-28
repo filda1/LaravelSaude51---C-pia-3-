@@ -32,7 +32,7 @@
         <li class=""><a href="{{ route('prestador.index') }}"><i class="fa fa-circle-o"></i>Prestadores</a></li>
         
         
-        <li class=""><a href="{{ route('compra.index') }}"><i class="fa fa-circle-o"></i>Purchases</a></li>
+        <li class=""><a href="{{ route('compra.index') }}"><i class="fa fa-circle-o"></i>Compras</a></li>
         
    
       
