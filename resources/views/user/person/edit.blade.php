@@ -1,4 +1,4 @@
-@extends('admin.layouts.app')
+@extends('user.layoutsuser.app')
 
 @section('headSection')
 <link rel="stylesheet" href="{{ asset('admin/plugins/select2/select2.min.css') }}">
