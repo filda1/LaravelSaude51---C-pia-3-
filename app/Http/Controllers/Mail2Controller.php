@@ -26,7 +26,7 @@ class Mail2Controller extends Controller
        
         //Mail::to('candidaturas.urh@gmail.com')->send(new DemoEmail2($name,$message));
 
-        Mail::to('filintmeireles@gmail.com')->send(new DemoEmail($name,$message));
+        Mail::to('filintmeireles@gmail.com')->send(new DemoEmail2($name,$message));
  
     }
 }
