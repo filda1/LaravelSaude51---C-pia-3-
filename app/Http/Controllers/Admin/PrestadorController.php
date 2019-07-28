@@ -106,7 +106,7 @@ class PrestadorController extends Controller
         $category->concelho = $request->concelho;
         $category->distrito = $request->distrito;
         $category->telefone = $request->telefone;
-        $category->email = $request->email;
+        $category->email = 0;
         $category->notas = $request->notas;
         $category->preo = " ";
         $category->desconto =  " ";
